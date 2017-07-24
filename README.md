@@ -11,9 +11,9 @@ This is the bot that got first place and 256 wpm on the typeracer leaderboards:
 
 List of high scores (PROVED WITH AN IMAGE)
 ===================
-256 wpm #1, made by LoganDark, Zayne, and The Game:
+#1 256 wpm, made by LoganDark, Zayne, and The Game:
 ![](https://puu.sh/wRMOt/e6a1493c10.png)
 
 List of possibly fake high scores
 ===================
-216 wpm #1, made by The Game
+#1 216 wpm, made by The Game
