@@ -1,6 +1,6 @@
 typecheat
 =========
-A script that fakes WPM on Typeracer (tampermonkey script)
+A script that types for you on Typeracer (tampermonkey script)
 
 This is the bot that got first place and 256 wpm on the typeracer leaderboards:
 ![](https://puu.sh/wRMOt/e6a1493c10.png)
