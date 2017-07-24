@@ -19,6 +19,9 @@ List of high scores (PROVED WITH AN IMAGE)
 
 ![](https://cdn.discordapp.com/attachments/338984733260382208/339048188399058974/unknown.png)
 
+#3 127 wpm, made by Zayne:
+![](https://cdn.discordapp.com/attachments/339030136219238400/339066555113406465/unknown.png)
+
 List of possibly fake high scores
 ===================
 #1 216 wpm, made by The Game
