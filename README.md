@@ -13,6 +13,8 @@ List of high scores (PROVED WITH AN IMAGE)
 ===================
 #1 256 wpm, made by LoganDark, Zayne, and The Game:
 ![](https://puu.sh/wRMOt/e6a1493c10.png)
+#2 178 wpm, made by LoganDark
+![](https://cdn.discordapp.com/attachments/338984733260382208/339048188399058974/unknown.png)
 
 List of possibly fake high scores
 ===================
