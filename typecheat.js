@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Typecheat
 // @namespace    *://typeracer.com/
-// @version      1.0
+// @version      1.1
 // @description  Helps you cheat in Typeracer (I can't help you if you get captcha'd!)
-// @author       LoganDark
+// @author       LoganDark and Zayne
 // @match        http://play.typeracer.com/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.2.1.min.js
@@ -11,14 +11,14 @@
 
 (function() {
     'use strict';
-    var MAGIC_NUMBER = 42; // milliseconds between each keypress / typo simulation, 42 is the magic number for around ~250 WPM
+    var MSPK = 42; // milliseconds between each keypress / typo simulation, 42MSPK is the magic number for ~250 WPM, Don't go lower than 20MSPK which is ~500 WPM, 52MSPK for ~130WPM
     var intervalID = setInterval(func, 50);
     function func() {
         if (!document.getElementById('typecheat')) {
             var txtInput = $('.txtInput');
             if (txtInput.length !== 0) {
                 var alreadyStarted = false;
-                txtInput.after($('<button id="typecheat">Typecheat!</button>').click(function() {
+                txtInput.after($('<button id="typecheat">Start Cheatin\'</button>').click(function() {
                     if (alreadyStarted === false) {
                         alreadyStarted = true;
                         var elem = $(this);
@@ -53,7 +53,7 @@
                             } else {
                                 clearInterval(typeIntervalID);
                             }
-                        }, MAGIC_NUMBER);
+                        }, MSPK);
                     }
                 }));
             }
