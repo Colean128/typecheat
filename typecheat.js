@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Typecheat
 // @namespace    *://typeracer.com/
-// @version      0.1
+// @version      1.0
 // @description  Helps you cheat in Typeracer (I can't help you if you get captcha'd!)
-// @author       HeheTest
+// @author       LoganDark
 // @match        http://play.typeracer.com/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.2.1.min.js
@@ -22,7 +22,7 @@
                     if (alreadyStarted === false) {
                         alreadyStarted = true;
                         var elem = $(this);
-                        var challengeText = $('tbody', elem.parent().parent().parent().children().first()).first().text();
+                        var challengeText = $('div > span[unselectable=on]').first().parent().text();
                         var currentIndex = 0;
                         var typoToClear = false;
                         var typeIntervalID;
