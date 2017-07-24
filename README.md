@@ -13,5 +13,5 @@ List of high scores
 ===================
 256 wpm #1, made by LoganDark, Zayne, and The Game:
 ![](https://puu.sh/wRMOt/e6a1493c10.png)
-216 wpm #2, made by The Game:
-![](404 No Image Proof)
+216 wpm #2, made by The Game:<br>
+404 No Image Proof
