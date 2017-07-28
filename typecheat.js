@@ -56,34 +56,6 @@
 			'marginBottom': '1em'
 		}).append($('<b>').text('Typecheat configuration').css(labelStyle));
 
-		// conversion functions. direction is true if converting TO displayed value, direction is false if converting from
-
-		function convertSpeed(direction, value) {
-			if ([true, false].indexOf(direction) > -1) {
-				return 12000 / value;
-			}
-
-			throw new TypeError('direction must be one of [true, false]');
-		}
-
-		function convertTypo(direction, value) {
-			if (direction === true) {
-				return direction * 100;
-			} else if (direction === false) {
-				return direction / 100;
-			}
-
-			throw new TypeError('direction must be one of [true, false]');
-		}
-
-		function convertLog(direction, value) {
-			if ([true, false].indexOf(direction) > -1) {
-				return value;
-			}
-
-			throw new TypeError('direction must be one of [true, false]');
-		}
-
 		let currentSpeed = localStorage.typecheat_speed ? JSON.parse(localStorage.typecheat_speed) : SPEED_IN_WPM;
 		let currentTypo = localStorage.typecheat_typo ? JSON.parse(localStorage.typecheat_typo) : TYPO_PERCENT;
 		let currentLog = localStorage.typecheat_log ? JSON.parse(localStorage.typecheat_log) : SHOW_LOGGING;
