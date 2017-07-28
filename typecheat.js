@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Typecheat
 // @namespace    *://typeracer.com/
-// @version      1.1
+// @version      1.2
 // @description  Helps you cheat in Typeracer (I can't help you if you get captcha'd!)
 // @author       LoganDark and Zayne
 // @match        http://play.typeracer.com/*
@@ -11,7 +11,7 @@
 
 (function() {
     'use strict';
-    var MSPK = 42; // milliseconds between each keypress / typo simulation, 42MSPK is the magic number for ~250 WPM, Don't go lower than 20MSPK which is ~500 WPM, 52MSPK for ~130WPM
+    var MSPK = 50; // milliseconds between each keypress / typo simulation, 42MSPK is the magic number for ~250 WPM, Don't go lower than 20MSPK which is ~500 WPM, 52MSPK for ~130WPM
     var intervalID = setInterval(func, 50);
     function func() {
         if (!document.getElementById('typecheat')) {
@@ -34,7 +34,7 @@
                         typeIntervalID = setInterval(function() {
                             if (currentIndex < challengeText.length) {
                                 if (typoToClear === false) {
-                                    if (Math.random() > 0.03) {
+                                    if (Math.random() > 0.02) {
                                         type(challengeText.charAt(currentIndex));
                                         currentIndex ++;
                                     } else {
