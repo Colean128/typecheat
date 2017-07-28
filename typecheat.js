@@ -15,7 +15,7 @@
     var MAGIC_NUMBER = 60; // milliseconds between each keypress / typo simulation, 42 is the magic number for around ~250 WPM
     var RANDOM_TYPOS = true;
     var TYPOS_CHANCE = 0.03; // 3% chance of typo for every character
-    var SHOW_LOGGING = true; // change this to true and show somebody your console to help them find issues
+    var SHOW_LOGGING = false; // change this to true and show somebody your console to help them find issues
     // END OF CONFIG
 
     var intervalID = setInterval(func, 20);
