@@ -12,7 +12,8 @@
 (function() {
     'use strict';
     var MSPK = 50; // milliseconds between each keypress / typo simulation, 42MSPK is the magic number for ~250 WPM, Don't go lower than 20MSPK which is ~500 WPM, 52MSPK for ~130WPM
-    var TYPOCHANCE = 0.02; // the chance of typos, default is 0.02
+    var TYPOCHANCE = 1; // the chance of typos, default is 0.02
+    var VERSION = 1.2; // the version number, change this at will, it dosen't affect typing.
     var intervalID = setInterval(func, 50);
     function func() {
         if (!document.getElementById('typecheat')) {
@@ -32,6 +33,12 @@
                                 return value + letter;
                             });
                         }
+              if (txtInput.length === 0 || txtInput.length !== 0) {
+                txtInput.before($('<button id="typecheatver">Version</button>').click(function() {
+                    alert("You are running Typecheat version " + VERSION);
+                })
+              );  
+              }
                         typeIntervalID = setInterval(function() {
                             if (currentIndex < challengeText.length) {
                                 if (typoToClear === false) {
