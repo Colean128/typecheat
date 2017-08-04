@@ -9,6 +9,11 @@ This is the bot that got first place and 256 wpm on the typeracer leaderboards:
 
 **EDIT 2**: [spongecattle](https://github.com/spongecattle) (Zayne) is now the new official dev for typecheat, go to [his fork](https://github.com/spongecattle/typecheat) for updates. I will not be updating this script anymore!
 
+WARNING
+===================
+USE AT YOUR OWN RISK THIS IS A BETA!!!!
+
+
 List of high scores (PROVED WITH AN IMAGE)
 ===================
 #1 256 wpm, made by LoganDark, Zayne, and The Game:
