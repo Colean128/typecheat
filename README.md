@@ -1,5 +1,6 @@
 typecheat
 =========
+**The typecheat project is no longer being developed. This code is here for historical purposes only.**
 A script that types for you on Typeracer (tampermonkey script)
 
 This is the bot that got first place and 256 wpm on the typeracer leaderboards:
